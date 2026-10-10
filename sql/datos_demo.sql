@@ -1,0 +1,21 @@
+-- Carga educativa sintetica. Coincide con los CSV de data/.
+BEGIN;
+INSERT INTO asociaciones_demo (asociacion_id, denominacion, estado, fecha_revision, naturaleza) VALUES ('1', 'Asociacion Ficticia Demo 01', 'verificado', '2026-09-20', 'sintetico');
+INSERT INTO asociaciones_demo (asociacion_id, denominacion, estado, fecha_revision, naturaleza) VALUES ('2', 'Asociacion Ficticia Demo 02', 'verificado', '2026-09-10', 'sintetico');
+INSERT INTO asociaciones_demo (asociacion_id, denominacion, estado, fecha_revision, naturaleza) VALUES ('3', 'Asociacion Ficticia Demo 03', 'verificado', '2026-08-31', 'sintetico');
+INSERT INTO asociaciones_demo (asociacion_id, denominacion, estado, fecha_revision, naturaleza) VALUES ('4', 'Asociacion Ficticia Demo 04', 'pendiente_revision', NULL, 'sintetico');
+INSERT INTO asociaciones_demo (asociacion_id, denominacion, estado, fecha_revision, naturaleza) VALUES ('5', 'Asociacion Ficticia Demo 05', 'borrador', NULL, 'sintetico');
+INSERT INTO asociaciones_demo (asociacion_id, denominacion, estado, fecha_revision, naturaleza) VALUES ('6', 'Asociacion Ficticia Demo 06', 'inactivo', '2026-08-01', 'sintetico');
+INSERT INTO eventos_demo (evento_id, asociacion_id, fecha, estado, aforo, asistentes, coste_eur, naturaleza) VALUES ('1', '1', '2026-09-01', 'ejecutado', '100', '80', '800.00', 'sintetico');
+INSERT INTO eventos_demo (evento_id, asociacion_id, fecha, estado, aforo, asistentes, coste_eur, naturaleza) VALUES ('2', '1', '2026-09-04', 'ejecutado', '50', '50', '500.00', 'sintetico');
+INSERT INTO eventos_demo (evento_id, asociacion_id, fecha, estado, aforo, asistentes, coste_eur, naturaleza) VALUES ('3', '2', '2026-09-10', 'ejecutado', '80', '60', '900.00', 'sintetico');
+INSERT INTO eventos_demo (evento_id, asociacion_id, fecha, estado, aforo, asistentes, coste_eur, naturaleza) VALUES ('4', '3', '2026-09-15', 'ejecutado', '40', '20', '200.00', 'sintetico');
+INSERT INTO eventos_demo (evento_id, asociacion_id, fecha, estado, aforo, asistentes, coste_eur, naturaleza) VALUES ('5', '2', '2026-09-18', 'ejecutado', '60', NULL, NULL, 'sintetico');
+INSERT INTO eventos_demo (evento_id, asociacion_id, fecha, estado, aforo, asistentes, coste_eur, naturaleza) VALUES ('6', '3', '2026-09-20', 'cancelado', '50', NULL, NULL, 'sintetico');
+INSERT INTO eventos_demo (evento_id, asociacion_id, fecha, estado, aforo, asistentes, coste_eur, naturaleza) VALUES ('7', '4', '2026-09-25', 'planificado', '30', NULL, NULL, 'sintetico');
+INSERT INTO eventos_demo (evento_id, asociacion_id, fecha, estado, aforo, asistentes, coste_eur, naturaleza) VALUES ('8', '5', '2026-09-29', 'planificado', '20', NULL, NULL, 'sintetico');
+INSERT INTO subvenciones_demo (solicitud_id, asociacion_id, ejercicio, estado, solicitado_eur, concedido_eur, naturaleza) VALUES ('1', '1', '2026', 'concedida', '1200.00', '1000.00', 'sintetico');
+INSERT INTO subvenciones_demo (solicitud_id, asociacion_id, ejercicio, estado, solicitado_eur, concedido_eur, naturaleza) VALUES ('2', '2', '2026', 'concedida', '2000.00', '1500.00', 'sintetico');
+INSERT INTO subvenciones_demo (solicitud_id, asociacion_id, ejercicio, estado, solicitado_eur, concedido_eur, naturaleza) VALUES ('3', '3', '2026', 'denegada', '800.00', '0.00', 'sintetico');
+INSERT INTO subvenciones_demo (solicitud_id, asociacion_id, ejercicio, estado, solicitado_eur, concedido_eur, naturaleza) VALUES ('4', '4', '2026', 'pendiente', '600.00', NULL, 'sintetico');
+COMMIT;

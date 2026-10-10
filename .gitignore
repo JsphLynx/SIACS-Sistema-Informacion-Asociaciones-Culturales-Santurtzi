@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.db
+*.sqlite*
+*.xlsx
+*.xls
+*.mp4
+private/
+outputs/
+.DS_Store
+Thumbs.db

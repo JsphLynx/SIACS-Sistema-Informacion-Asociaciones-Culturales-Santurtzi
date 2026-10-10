@@ -1,0 +1,5 @@
+solicitud_id,asociacion_id,ejercicio,estado,solicitado_eur,concedido_eur,naturaleza
+1,1,2026,concedida,1200.00,1000.00,sintetico
+2,2,2026,concedida,2000.00,1500.00,sintetico
+3,3,2026,denegada,800.00,0.00,sintetico
+4,4,2026,pendiente,600.00,,sintetico

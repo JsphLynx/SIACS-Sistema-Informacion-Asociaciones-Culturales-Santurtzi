@@ -1,0 +1,9 @@
+evento_id,asociacion_id,fecha,estado,aforo,asistentes,coste_eur,naturaleza
+1,1,2026-09-01,ejecutado,100,80,800.00,sintetico
+2,1,2026-09-04,ejecutado,50,50,500.00,sintetico
+3,2,2026-09-10,ejecutado,80,60,900.00,sintetico
+4,3,2026-09-15,ejecutado,40,20,200.00,sintetico
+5,2,2026-09-18,ejecutado,60,,,sintetico
+6,3,2026-09-20,cancelado,50,,,sintetico
+7,4,2026-09-25,planificado,30,,,sintetico
+8,5,2026-09-29,planificado,20,,,sintetico

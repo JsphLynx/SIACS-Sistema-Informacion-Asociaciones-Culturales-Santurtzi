@@ -1,0 +1,7 @@
+asociacion_id,denominacion,estado,fecha_revision,naturaleza
+1,Asociacion Ficticia Demo 01,verificado,2026-09-20,sintetico
+2,Asociacion Ficticia Demo 02,verificado,2026-09-10,sintetico
+3,Asociacion Ficticia Demo 03,verificado,2026-08-31,sintetico
+4,Asociacion Ficticia Demo 04,pendiente_revision,,sintetico
+5,Asociacion Ficticia Demo 05,borrador,,sintetico
+6,Asociacion Ficticia Demo 06,inactivo,2026-08-01,sintetico
